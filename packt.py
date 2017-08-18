@@ -84,7 +84,8 @@ if __name__ == '__main__':
     tweet = TWEET.format(book.title, PACKT_FREE_LEARNING_LINK)
     tweet = hashify(tweet)
 
+    logging.info('tweet to send: {}'.format(tweet))
     if test:
-        logging.info('Test: tweet to send: {}'.format(tweet))
+        logging.info('test nothing sent')
     else:
         tweet_status(tweet)

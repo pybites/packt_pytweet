@@ -1,0 +1,6 @@
+free-learning*
+*log
+venv
+__pycache__/
+*pyc
+*swp
